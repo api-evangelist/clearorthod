@@ -1,7 +1,28 @@
 aid: clearorthod
-name: clearorthod
-description: clearorthod is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clearorthod.png
+name: Clearbos (clearorthod)
+description: >-
+  Clearbos (clearorthod / 可丽尔博士) is a Chinese clear-aligner orthodontics company
+  that designs and manufactures invisible teeth-alignment systems for adults and
+  children, delivered through a network of partner dental clinics and
+  orthodontists. Its digital treatment platform pairs the C4 adult-correction
+  system with the C3 pediatric full-cycle system, and is supported by a
+  doctor-facing web portal for case submission, treatment planning, and aligner
+  ordering. The company reports more than 11,900 registered doctors and 9,200
+  partner clinics across 321 cities. Clearbos was added to the API Evangelist
+  network as a portfolio company of Qiming Venture Partners; no public developer
+  API, OpenAPI, or /.well-known discovery surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/clearorthod/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Orthodontics
+- Dental
+- Clear Aligners
+- Healthcare
+- Medical Devices
+- Doctor Portal
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://clearorthod.com
+  url: https://www.clearorthod.com
+- type: Login
+  url: https://drapp.clearbos.com/Clearsite
+  name: Doctor Portal
+- type: Blog
+  url: https://www.clearorthod.com/Cn/Index/listView/catid/30.html
+  name: News
+- type: About
+  url: https://www.clearorthod.com/Cn/Index/pageView/catid/25.html
+- type: DomainSecurity
+  url: security/clearorthod-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
