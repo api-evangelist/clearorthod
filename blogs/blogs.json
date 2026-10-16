@@ -2,10 +2,13 @@
   "repo": "clearorthod",
   "feeds": [
     {
-      "source": "https://drapp.clearbos.com/Clearsite",
-      "error": "URLError"
+      "source": "https://www.clearorthod.com/Cn/Index/listView/catid/30.html",
+      "feed_url": "https://www.clearorthod.com/Cn/Index/listView/catid/30.html",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
